@@ -85,6 +85,7 @@ h5 {
 	color: #a9b2b9;
 	font-size: 14px;
 	font-weight: 400;
+	text-transform: uppercase;
 }
 
 strong {
@@ -107,6 +108,11 @@ a:hover {
 
 a {
 	color: #648880;
+	text-decoration: none;
+}
+
+p a {
+	border-bottom: 1px solid #dfe2e5;
 }
 
 /*
@@ -179,6 +185,7 @@ a {
 	clear: both;
 	*zoom: 1;
 }
+
 /*
   ========================================
   Typography
@@ -241,11 +248,14 @@ h1, h3, h4, h5, p {
 
 .tagline {
 	margin: 66px 0 22px 0;
+	text-align: right;
 }
 
 .primary-nav {
 	font-size: 14px;
 	font-weight: 400;
+	letter-spacing: .5px;
+	text-transform: uppercase;
 }
 
 /*
@@ -264,4 +274,14 @@ h1, h3, h4, h5, p {
 	font-size: 14px;
 	padding-bottom: 44px;
 	padding-top: 44px;
+}
+
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+
+.nav {
+	text-align: right;
 }
