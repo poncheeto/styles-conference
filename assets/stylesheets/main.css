@@ -404,3 +404,7 @@ h1, h3, h4, h5, p {
 .venue-hotel {
 	margin-bottom: 22px;
 }
+
+.venue-map {
+	height: 264px;
+}
